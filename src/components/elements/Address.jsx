@@ -10,7 +10,7 @@ const Address = () => {
       title: "Our Address",
       descriptions: (
         <>
-          <p>Vis Group, Hansa Str 03, 47058Duisburg, , NRW, Germany</p>
+          <p>Vis Group, Hansa Str 03, 47058, Duisburg, NRW, Germany</p>
         </>
       ),
       delayAnimatinTime: 0,
