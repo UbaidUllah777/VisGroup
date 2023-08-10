@@ -111,7 +111,7 @@ const VisLocations = () => {
             <p
               style={{
                 marginTop: "12px",
-                fontSize: "14px",
+                fontSize: "12px",
                 marginBottom: "20px",
                 fontFamily: "Recoleta",
                 fontWeight: "normal",
