@@ -5,7 +5,7 @@ import CopyrightSocial from "./CopyrightSocial";
 const CopyrightFooter = () => {
   const footerList = [
     { id: 1, name: "Privacy Policy", routeLink: "/privacy" },
-    { id: 2, name: "Contact Us", routeLink: "/contact-us" },
+    { id: 2, name: "Imprint", routeLink: "/imprint" },
   ];
   return (
     <div className="row">
