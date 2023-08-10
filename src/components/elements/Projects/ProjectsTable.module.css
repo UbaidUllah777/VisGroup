@@ -1,0 +1,64 @@
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.scrollable-tbody {
+  max-height: 600px; /* Adjust as needed */
+  overflow: auto;
+  display: block; /* Ensures a new block formatting context */
+}
+.scrollable-tbody::-webkit-scrollbar {
+    width: 6px; /* Set the width of the scrollbar */
+    max-height: 6px; /* Set the height of the scrollbar */
+    margin-top: 3rem;
+  }
+  .scrollable-tbody::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3); /* Color of the scrollbar thumb */
+    border-radius: 3px; /* Rounded corners for the thumb */
+  }
+  
+  .scrollable-tbody::-webkit-scrollbar-track {
+    background-color: transparent; /* Background color of the scrollbar track */
+  }
+.styled-table thead tr {
+    background-color:  rgb(225, 104, 23);
+    color: #ffffff;
+    text-align: left;
+}
+.tableBody tr:hover{
+    font-weight: 500;
+    color: rgb(225, 104, 23)
+
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;  
+}
+.styled-table tbody tr:nth-of-type(odd) {
+    background-color: #e9e4e4;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid  rgb(225, 104, 23);
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}

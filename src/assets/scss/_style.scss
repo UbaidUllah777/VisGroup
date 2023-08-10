@@ -313,6 +313,9 @@ h6 {
 .dark-bg {
   background-color: #121212;
 }
+.lighGray-bg {
+  background-color: #F7F9F9;
+}
 .hero-spacing {
   margin: 135px 65px 0;
 }
@@ -6734,6 +6737,14 @@ line-height: 28px;
   background: var(--red-one);
   color: #fff;
 }
+
+.faq-section-two .nav-tabs .nav-link{
+  background: #CACFD2;
+  border-radius: 10px;
+  
+  
+}
+
 .accordion-style-three .accordion-item {
   border: none;
   margin-bottom: 17px;
@@ -6777,7 +6788,6 @@ line-height: 28px;
 .faq-section-two .request-faq h2 {
   font-size: 44px;
   margin-bottom: 25px;
-  color: #fff;
 }
 .faq-section-two .request-faq .theme-btn-four {
   font-size: 13px;
