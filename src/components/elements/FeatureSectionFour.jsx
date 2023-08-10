@@ -11,28 +11,28 @@ const FeatureSectionFour = () => {
       id: 1,
       icon: icon1,
       title: "Dedicated Teams",
-      description: `Elit esse cillum dolore eu fugiat nulla pariatur`,
+      description: `Our dedicated teams excel in seamless communication and collaboration. We closely analyze your requirements, challenges, and goals to provide customized solutions that align with your vision.`,
       delayAnimation: 0,
     },
     {
       id: 2,
       icon: icon2,
-      title: "Speedy Resourse Mobilization",
-      description: `Elit esse cillum dolore eu fugiat nulla pariatur`,
+      title: "Measurement Vehicals",
+      description: `Eliminating the need for a permanent vehicle fleet investment, we provide preset measurement vehicles specifically tailored for the duration of your project.`,
       delayAnimation: 100,
     },
     {
       id: 3,
       icon: icon3,
-      title: "Presence In Multiple Locations",
-      description: `Elit esse cillum dolore eu fugiat nulla pariatur`,
+      title: "Global Presence",
+      description: `Harnessing a global presence, we prioritize forging robust client relationships. Our unwavering commitment to exceptional service and support transcends borders.`,
       delayAnimation: 0,
     },
     {
       id: 4,
       icon: icon4,
-      title: "Proven Track Record",
-      description: `Elit esse cillum dolore eu fugiat nulla pariatur`,
+      title: "Competitive Budgeting",
+      description: `Through our extensive work experience, we have developed a proactive approach to anticipate and effectively manage unforeseen situations from the outset, mitigating cost escalation.`,
       delayAnimation: 100,
     },
   ];
@@ -74,20 +74,6 @@ const FeatureSectionFour = () => {
                   key={feature.id}
                 >
                   <div className="card-style-four mb-25 lg-mb-70 d-flex align-items-center">
-                    <div
-                      className="number-icon tran3s"
-                      style={{
-                        backgroundColor: "#e16817",
-                        padding: "10px",
-                        color: "whitesmoke",
-                        fontSize: "34px",
-                        fontWeight: "bold",
-                        borderRadius: "5px",
-                        marginRight: "10px",
-                      }}
-                    >
-                      {index + 1}
-                    </div>
                     <div>
                       <h4 className="title">{feature.title}</h4>
                       <p>{feature.description}</p>
