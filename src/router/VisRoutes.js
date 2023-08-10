@@ -14,6 +14,7 @@ import Projects from "../pages/Projects";
 import Blogs from "../pages/Blogs";
 import ContactUs from "../pages/ContactUs";
 import Imprint from "../pages/Imprint";
+import PrivacyPolicy from "../pages/PrivacyPolicy";
 
 const VisRoutes = () => {
   return (
@@ -45,6 +46,10 @@ const VisRoutes = () => {
         {/* Imprint */}
 
         <Route path="/imprint" element={<Imprint />} />
+
+        {/* Imprint */}
+
+        <Route path="/privacy" element={<PrivacyPolicy />} />
 
         {/* Invalid URL */}
         <Route path="*" element={<NotFound />} />

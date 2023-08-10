@@ -49,9 +49,19 @@ const FooterMenuList = ({ className = "" }) => {
       title: "Legal",
       colClass: "col-lg-3",
       list: [
-        { name: "Terms & Conditions", routeLink: "/termsAndConditions" },
-        { name: "Privacy Policy", routeLink: "/privacyPolicy" },
-        { name: "Imprint", routeLink: "/imprint" },
+        {
+          name: "Vision Professional Services",
+          routeLink: "/www.vision-ps.de",
+        },
+        {
+          name: "Viscom Engineering Services",
+          routeLink: "/www.viscom-es.de",
+        },
+
+        {
+          name: "Perform Engineering Services",
+          routeLink: "/www.perform-es.com",
+        },
       ],
     },
   ];
