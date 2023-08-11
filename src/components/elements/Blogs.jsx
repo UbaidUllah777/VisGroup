@@ -10,6 +10,8 @@ const blogContent = [
     meta: "New",
     date: "18 Sep 23",
     img: "",
+    blogDescription:
+      "UAliquip non irure eiusmod ex culpa laborum reprehenderit. Aliqua ex in non anim ex id dolor in in consectetur elit officia. Ad labore dolor veniam id non officia non. Eu exercitation nostrud duis quis sint do deserunt laboris aute aliquip. Enim occaecat ex laboris consectetur tempor sint consequat non officia anim nisi esse. Proident proident eu eiusmod occaecat proident ex sit duis occaecat. Ad sunt officia ut id velit consequat eu aliquip nisi nostrud enim aute dolor.t tempor commodo anim amet elit incididunt et consequat deserunt cillum pariatur sit esse. Do ad ut sint esse ut duis deserunt adipisicing consequat. Proident proident voluptate voluptate ipsum voluptate id eiusmod ullamco officia aliqua deserunt voluptate ipsum nulla. Sunt ex culpa velit in enim pariatur adipisicing est.",
   },
   {
     id: 1,
@@ -18,6 +20,8 @@ const blogContent = [
     meta: "New",
     date: "01 Aug 23",
     img: "",
+    blogDescription:
+      "UAliquip non irure eiusmod ex culpa laborum reprehenderit. Aliqua ex in non anim ex id dolor in in consectetur elit officia. Ad labore dolor veniam id non officia non. Eu exercitation nostrud duis quis sint do deserunt laboris aute aliquip. Enim occaecat ex laboris consectetur tempor sint consequat non officia anim nisi esse. Proident proident eu eiusmod occaecat proident ex sit duis occaecat. Ad sunt officia ut id velit consequat eu aliquip nisi nostrud enim aute dolor.t tempor commodo anim amet elit incididunt et consequat deserunt cillum pariatur sit esse. Do ad ut sint esse ut duis deserunt adipisicing consequat. Proident proident voluptate voluptate ipsum voluptate id eiusmod ullamco officia aliqua deserunt voluptate ipsum nulla. Sunt ex culpa velit in enim pariatur adipisicing est.",
   },
   {
     id: 2,
@@ -26,6 +30,8 @@ const blogContent = [
     meta: "New",
     date: "02 Aug 23",
     img: "",
+    blogDescription:
+      "UAliquip non irure eiusmod ex culpa laborum reprehenderit. Aliqua ex in non anim ex id dolor in in consectetur elit officia. Ad labore dolor veniam id non officia non. Eu exercitation nostrud duis quis sint do deserunt laboris aute aliquip. Enim occaecat ex laboris consectetur tempor sint consequat non officia anim nisi esse. Proident proident eu eiusmod occaecat proident ex sit duis occaecat. Ad sunt officia ut id velit consequat eu aliquip nisi nostrud enim aute dolor.t tempor commodo anim amet elit incididunt et consequat deserunt cillum pariatur sit esse. Do ad ut sint esse ut duis deserunt adipisicing consequat. Proident proident voluptate voluptate ipsum voluptate id eiusmod ullamco officia aliqua deserunt voluptate ipsum nulla. Sunt ex culpa velit in enim pariatur adipisicing est.",
   },
   {
     id: 3,
@@ -34,6 +40,8 @@ const blogContent = [
     meta: "Featured",
     date: "18 July 22",
     img: "",
+    blogDescription:
+      "UAliquip non irure eiusmod ex culpa laborum reprehenderit. Aliqua ex in non anim ex id dolor in in consectetur elit officia. Ad labore dolor veniam id non officia non. Eu exercitation nostrud duis quis sint do deserunt laboris aute aliquip. Enim occaecat ex laboris consectetur tempor sint consequat non officia anim nisi esse. Proident proident eu eiusmod occaecat proident ex sit duis occaecat. Ad sunt officia ut id velit consequat eu aliquip nisi nostrud enim aute dolor.t tempor commodo anim amet elit incididunt et consequat deserunt cillum pariatur sit esse. Do ad ut sint esse ut duis deserunt adipisicing consequat. Proident proident voluptate voluptate ipsum voluptate id eiusmod ullamco officia aliqua deserunt voluptate ipsum nulla. Sunt ex culpa velit in enim pariatur adipisicing est.",
   },
 
   {
@@ -43,6 +51,8 @@ const blogContent = [
     meta: "Featured",
     date: "18 July 22",
     img: "",
+    blogDescription:
+      "UAliquip non irure eiusmod ex culpa laborum reprehenderit. Aliqua ex in non anim ex id dolor in in consectetur elit officia. Ad labore dolor veniam id non officia non. Eu exercitation nostrud duis quis sint do deserunt laboris aute aliquip. Enim occaecat ex laboris consectetur tempor sint consequat non officia anim nisi esse. Proident proident eu eiusmod occaecat proident ex sit duis occaecat. Ad sunt officia ut id velit consequat eu aliquip nisi nostrud enim aute dolor.t tempor commodo anim amet elit incididunt et consequat deserunt cillum pariatur sit esse. Do ad ut sint esse ut duis deserunt adipisicing consequat. Proident proident voluptate voluptate ipsum voluptate id eiusmod ullamco officia aliqua deserunt voluptate ipsum nulla. Sunt ex culpa velit in enim pariatur adipisicing est.",
   },
 ];
 
