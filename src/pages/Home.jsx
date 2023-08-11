@@ -217,7 +217,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* Our Lastest Three Blogs:start */}
+      {/* Our Lastest Three Blogs:End */}
 
       {/* Call to Action : start */}
       <div className="fancy-banner-one mt-200 lg-mt-120">
