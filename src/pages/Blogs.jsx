@@ -5,7 +5,7 @@ import Header from "../components/common/header/Header";
 import CopyrightFooter from "../components/common/footer/CopyrightFooter";
 import FooterMenuList from "../components/common/footer/FooterMenuList";
 import { Link } from "react-router-dom";
-import AllBlogs from "../components/elements/Blogs";
+import AllBlogs from "../components/blogs/Blog";
 import Seo from "../components/common/seo/Seo";
 import banner from "../assets/images/banners/aboutUsBanner.jpg";
 

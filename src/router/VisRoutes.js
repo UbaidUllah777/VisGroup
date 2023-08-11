@@ -16,31 +16,41 @@ import ContactUs from "../pages/ContactUs";
 import Imprint from "../pages/Imprint";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 import TermsAndConditions from "../pages/TermsAndConditions";
+import BlogDetail from "../pages/BlogDetail";
 
 const VisRoutes = () => {
   return (
     <>
       <ScrollTopBehaviour />
       <Routes>
-        {/* All home */}
+        {/* Home */}
         <Route path="/" element={<Home />} />
+
         {/* about us page  */}
         <Route path="/about-us" element={<AboutUs />} />
+
         {/* Services */}
         <Route path="/services" element={<Services />} />
+
         {/* Projects */}
         <Route path="/projects" element={<Projects />} />
-        {/* Blogs */}
+
+        {/* Blogs and Blog Detail */}
         <Route path="/blogs" element={<Blogs />} />
+        <Route path="/blogs/:id" element={<BlogDetail />} />
+
         {/* Contact */}
         <Route path="/contact-us" element={<ContactUs />} />
+
         {/* Imprint */}
         <Route path="/imprint" element={<Imprint />} />
+
         {/* Imprint */}
         <Route path="/privacy" element={<PrivacyPolicy />} />
 
         {/* Terms and conditions */}
         <Route path="/terms" element={<TermsAndConditions />} />
+
         {/* Invalid URL */}
         <Route path="*" element={<NotFound />} />
       </Routes>
