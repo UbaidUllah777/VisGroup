@@ -8,7 +8,7 @@ height: auto;
     padding-bottom: 0.7rem;
     font-family: "Recoleta";
     font-weight: 500;
-    line-height: 17px;
+    line-height: 22px;
 }
 .LatestBlogsList:hover{
  cursor: pointer;
@@ -26,4 +26,16 @@ height: auto;
     font-size: 16px;
     font-family: "Recoleta";
     margin-bottom: 1rem;
+}
+
+.blogDetailParaHeading{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.16em;
+    margin-bottom: 20px;
+    color: rgb(225, 104, 23);
+    display: inline-block;
+}
+.blogDetailParagragh{
+    font-size: 14px;
 }

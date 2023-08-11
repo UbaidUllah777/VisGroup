@@ -64,11 +64,6 @@ const BlogDetail = () => {
               >
                 <img src={blog.img} alt={blog.title} />
               </div>
-              <div className="row mt-50">
-                <div className="col-12">
-                  <p className={classes.blogDate}>{blog.date}</p>
-                </div>
-              </div>
             </div>
 
             {/* Latest Blogs On SIde: Start */}
@@ -83,6 +78,21 @@ const BlogDetail = () => {
               ))}
             </div>
             {/* Latest Blogs On SIde: End */}
+          </div>
+          <div className="row mt-50">
+            <div className="col-12">
+              <p className={classes.blogDate}>{blog.date}</p>
+              {blog.paragraphs.map((paragraph, index) => (
+                <div key={index}>
+                  <h4 className={classes.blogDetailParaHeading}>
+                    {paragraph.paragraphHeading}
+                  </h4>
+                  <p className={classes.blogDetailParagragh}>
+                    {paragraph.paragraph}
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
