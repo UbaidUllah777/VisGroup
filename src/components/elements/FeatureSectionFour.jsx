@@ -31,7 +31,7 @@ const FeatureSectionFour = () => {
     {
       id: 4,
       icon: icon4,
-      title: "Competitive Budgeting",
+      title: "Competitive Budget",
       description: `Through our extensive work experience, we have developed a proactive approach to anticipate and effectively manage unforeseen situations from the outset, mitigating cost escalation.`,
       delayAnimation: 100,
     },
