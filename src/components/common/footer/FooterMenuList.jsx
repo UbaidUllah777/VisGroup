@@ -46,7 +46,7 @@ const FooterMenuList = ({ className = "" }) => {
     // Legal
     {
       id: "legal",
-      title: "Legal",
+      title: "Vis Group",
       colClass: "col-lg-3",
       list: [
         {
@@ -60,6 +60,21 @@ const FooterMenuList = ({ className = "" }) => {
 
         {
           name: "Perform Engineering Services",
+          routeLink: "/www.perform-es.com",
+        },
+
+        {
+          name: "BrainTime Technologies",
+          routeLink: "/www.braintimetechnologies.com",
+        },
+
+        {
+          name: "Al Mafaheem Technologies",
+          routeLink: "/www.perform-es.com",
+        },
+
+        {
+          name: "Attractive Vision IT Services",
           routeLink: "/www.perform-es.com",
         },
       ],
