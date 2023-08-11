@@ -31,8 +31,10 @@ const Projects = () => {
             </div>
             <div className="col-xxl-5 col-md-6 ms-auto">
               <p>
-                Lorem ipsum is placeholder text commonly used in the graphic,
-                print, and publishing industries for layouts and visual.
+                Explore our diverse project portfolio and witness our expertise
+                across telecommunications, network benchmarking, field
+                performance testing, and more. Find inspiration in our impactful
+                work.
               </p>
             </div>
           </div>
@@ -41,7 +43,7 @@ const Projects = () => {
       {/* Banner : End */}
 
       {/* About Us: start */}
-      <div className="vcamp-text-block-one mt-50 lg-mt-120">
+      <div className="vcamp-text-block-one mt-20 lg-mt-120">
         <div className="container">
           <div className="row align-items-center" style={{ marginTop: "20px" }}>
             <div className="col-xxl-6 col-xl-7 col-lg-5">
@@ -50,24 +52,24 @@ const Projects = () => {
                   <div className="upper-title">About Our Projects </div>
                   <p
                     style={{
-                      fontFamily: "Recoleta",
+                      // fontFamily: "Recoleta",
                       fontSize: "16px",
                       textAlign: "justify",
                     }}
                   >
-                    We’ve been helping customer globally.Elevate your digital
-                    products and solutions with Vis Group, a leading provider of
-                    end-to-end testing and quality assurance services. Operating
-                    across Germany, Europe, and Asia, we offer comprehensive
-                    testing solutions that ensure the flawless performance of
-                    your digital offerings. From telecommunication system
-                    testing to network benchmarking, infotainment systems
-                    testing, and software testing, our expert team leverages
-                    their domain knowledge to deliver superior results. With Vis
-                    Group, you can trust in our meticulous testing processes and
-                    experienced professionals to provide your end-users with a
-                    seamless and exceptional experience. Let us validate and
-                    optimize your digital solutions for unparalleled success.
+                    Vis Group is dedicated to providing comprehensive
+                    outsourcing options for a wide range of industries,
+                    including telecommunications, network benchmarking, field
+                    performance testing, infotainment system testing, GPS and
+                    mobile application testing, manual and automation testing,
+                    software development, and related services. Our highly
+                    skilled technicians and engineers are available for
+                    project-based deployments, eliminating the need for
+                    permanent employees on your side. With our agile approach,
+                    we can swiftly allocate resources to any location within
+                    Europe and worldwide. Partner with Vis Group for efficient
+                    and reliable outsourcing solutions tailored to meet your
+                    specific needs.
                   </p>
                 </div>
               </div>

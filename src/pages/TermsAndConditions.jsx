@@ -18,14 +18,17 @@ const TermsAndConditions = () => {
         <div className="container">
           <div className="row">
             <div
-              className="col-lg-6 col-md-6 "
+              className="col-lg-8 col-md-8 "
               style={{ marginBottom: "0.9rem" }}
             >
-              <h2 className="page-title  font-recoleta">
-                <span>Terms And Conditions</span>
+              <h2
+                className="page-title  font-recoleta"
+                style={{ fontSize: "42px" }}
+              >
+                <span>Terms & Conditions</span>
               </h2>
             </div>
-            <div className="col-lg-3 col-md-3 "></div>
+
             <div
               className="col-lg-3 col-md-4 "
               style={{ alignItems: "flex-end" }}
