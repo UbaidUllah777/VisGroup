@@ -49,7 +49,7 @@ const PrivacyPolicy = () => {
               <h4
                 style={{
                   fontWeight: "normal",
-                  fontSize: "20px",
+                  fontSize: "15px",
                   lineHeight: "1.16em",
                   marginBottom: "20px",
                 }}
@@ -77,7 +77,7 @@ const PrivacyPolicy = () => {
               <h4
                 style={{
                   fontWeight: "normal",
-                  fontSize: "20px",
+                  fontSize: "15px",
                   lineHeight: "1.16em",
                   marginBottom: "20px",
                 }}
@@ -107,7 +107,7 @@ const PrivacyPolicy = () => {
               <h4
                 style={{
                   fontWeight: "normal",
-                  fontSize: "20px",
+                  fontSize: "15px",
                   lineHeight: "1.16em",
                   marginBottom: "20px",
                 }}
@@ -137,7 +137,7 @@ const PrivacyPolicy = () => {
               <h4
                 style={{
                   fontWeight: "normal",
-                  fontSize: "20px",
+                  fontSize: "15px",
                   lineHeight: "1.16em",
                   marginBottom: "20px",
                 }}
@@ -173,7 +173,7 @@ const PrivacyPolicy = () => {
               <h4
                 style={{
                   fontWeight: "normal",
-                  fontSize: "20px",
+                  fontSize: "15px",
                   lineHeight: "1.16em",
                   marginBottom: "20px",
                 }}
@@ -201,7 +201,7 @@ const PrivacyPolicy = () => {
               <h4
                 style={{
                   fontWeight: "normal",
-                  fontSize: "20px",
+                  fontSize: "15px",
                   lineHeight: "1.16em",
                   marginBottom: "20px",
                 }}
@@ -229,7 +229,7 @@ const PrivacyPolicy = () => {
               <h4
                 style={{
                   fontWeight: "normal",
-                  fontSize: "20px",
+                  fontSize: "15px",
                   lineHeight: "1.16em",
                   marginBottom: "20px",
                 }}
@@ -256,7 +256,7 @@ const PrivacyPolicy = () => {
               <h4
                 style={{
                   fontWeight: "normal",
-                  fontSize: "20px",
+                  fontSize: "15px",
                   lineHeight: "1.16em",
                   marginBottom: "20px",
                 }}
@@ -283,7 +283,7 @@ const PrivacyPolicy = () => {
               <h4
                 style={{
                   fontWeight: "normal",
-                  fontSize: "20px",
+                  fontSize: "15px",
                   lineHeight: "1.16em",
                   marginBottom: "20px",
                 }}
@@ -309,7 +309,7 @@ const PrivacyPolicy = () => {
               <h4
                 style={{
                   fontWeight: "normal",
-                  fontSize: "20px",
+                  fontSize: "15px",
                   lineHeight: "1.16em",
                   marginBottom: "20px",
                 }}
