@@ -1,0 +1,29 @@
+.BlogImageWrapper img{
+max-width: 500px;
+height: auto;
+}
+
+.LatestBlogsList{
+    list-style: none;
+    padding-bottom: 0.7rem;
+    font-family: "Recoleta";
+    font-weight: 500;
+    line-height: 17px;
+}
+.LatestBlogsList:hover{
+ cursor: pointer;
+ color:#e16817 ;
+}
+
+.LatestBlogsHeading{
+    font-size: 24px;
+    font-family: "Recoleta";
+    margin-bottom: 1rem;
+    color: #e16817;
+}
+
+.blogDate{
+    font-size: 16px;
+    font-family: "Recoleta";
+    margin-bottom: 1rem;
+}
