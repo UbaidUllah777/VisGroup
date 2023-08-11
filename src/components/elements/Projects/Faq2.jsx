@@ -35,7 +35,7 @@ const Faq2 = () => {
       </ul>
       {/* End nav-item */}
 
-      <div className="tab-content mt-110 lg-mt-60">
+      <div className="tab-content mt-20 lg-mt-60">
         <div className="tab-pane fade show active" id="all" role="tabpanel">
           <ProjectsTable selectedCountryId="all" />
         </div>
@@ -58,7 +58,7 @@ const Faq2 = () => {
       </div>
       {/* <!-- /.tab-content --> */}
 
-      <div className="request-faq text-center pt-90 lg-pt-70">
+      <div className="request-faq text-center pt-70 lg-pt-70">
         <h2 className="font-recoleta">Want to discuss your project?</h2>
         <Link to="/contact-us" className="theme-btn-four ripple-btn">
           CONTACT US

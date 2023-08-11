@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import FancyBanner from "../components/elements/FancyBanner";
 import Seo from "../components/common/seo/Seo";
 import Faq2 from "../components/elements/Projects/Faq2";
+import Certification from "../components/elements/Certification";
 import FooterMenuList from "../components/common/footer/FooterMenuList";
 
 const Projects = () => {
@@ -25,7 +26,7 @@ const Projects = () => {
           <div className="row">
             <div className="col-xl-5 col-md-6">
               <h2 className="page-title font-recoleta">
-                Find <span>Answers</span> here.
+                Find Our <span>Projects</span> here.
               </h2>
             </div>
             <div className="col-xxl-5 col-md-6 ms-auto">
@@ -79,7 +80,11 @@ const Projects = () => {
       </div>
       {/* About Us : ENd */}
 
-      <div className="faq-section-two lighGray-bg mb-70">
+      {/* Projects Table With Data: Start */}
+      <div
+        className="faq-section-two lighGray-bg mb-70"
+        style={{ paddingTop: "5rem", paddingBottom: "5rem" }}
+      >
         <div className="container">
           <div className="row">
             <Faq2 />
@@ -87,9 +92,18 @@ const Projects = () => {
         </div>
         {/* <!-- /.container --> */}
       </div>
+      {/* Projects Table With Data: End */}
+
+      {/* We Are Certified: Start */}
+      <div className="container">
+        <div className="row align-items-center">
+          <Certification />
+        </div>
+      </div>
+      {/* We Are Certified: End */}
 
       {/* Call to action: start */}
-      <div className="fancy-banner-one mt-200 lg-mt-120">
+      <div className="fancy-banner-one mt-100 lg-mt-120">
         <div className="inner-content position-relative">
           <div className="container">
             <div className="row align-items-center">
