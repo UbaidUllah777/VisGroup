@@ -10,7 +10,7 @@ export const blogContent = [
       "Understanding Telecom Network Benchmarking: Enhancing Service Quality ",
     meta: "New",
     date: "11 Aug 23",
-    img: "",
+    img: "../assets/img/blog/networkbenchmarktesting.jpg",
     paragraphs: [
       {
         paragraphHeading: `Introduction`,
