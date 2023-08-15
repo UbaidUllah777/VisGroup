@@ -8,8 +8,17 @@ export const serviceContent = [
   // ---------------- TeleCommunication-----------------
   {
     id: "teleCommunication",
-    title: "TeleCommunication",
-    link: "",
+    areaTitle: "TeleCommunication",
+    icon: icon3,
+    delayAnimation: 200,
+    link: "/services",
+    text: (
+      <>
+        Ut adipisicing irure sint id deserunt sit quis dolor anim magna
+        cupidatat. Ullamco sint occaecat id in exercitation quis laboris
+        consequat. Ea occaecat est esse consequat irure deserunt sint quis.
+      </>
+    ),
     areaServices: [
       // Networkbenchmark Testing
       {
@@ -108,8 +117,17 @@ export const serviceContent = [
   //---------------- Infotainment Systems -----------
   {
     id: "infotainmentSystems",
-    title: "Infotainment Systems",
-    link: "",
+    areaTitle: "Infotainment Systems",
+    icon: icon3,
+    delayAnimation: 200,
+    link: "/services",
+    text: (
+      <>
+        Ut adipisicing irure sint id deserunt sit quis dolor anim magna
+        cupidatat. Ullamco sint occaecat id in exercitation quis laboris
+        consequat. Ea occaecat est esse consequat irure deserunt sint quis.
+      </>
+    ),
     areaServices: [
       // GPS Testing
       {
@@ -186,8 +204,17 @@ export const serviceContent = [
 
   {
     id: "softwareDevelopment",
-    title: "Software Development",
-    link: "",
+    areaTitle: "Software Development",
+    icon: icon3,
+    delayAnimation: 200,
+    link: "/services",
+    text: (
+      <>
+        Ut adipisicing irure sint id deserunt sit quis dolor anim magna
+        cupidatat. Ullamco sint occaecat id in exercitation quis laboris
+        consequat. Ea occaecat est esse consequat irure deserunt sint quis.
+      </>
+    ),
     areaServices: [
       // Web Apps Development
       {
@@ -243,8 +270,17 @@ export const serviceContent = [
 
   {
     id: "Quality Assurance",
-    title: "Quality Assurance",
-    link: "",
+    areaTitle: "Quality Assurance",
+    icon: icon3,
+    delayAnimation: 200,
+    link: "/services",
+    text: (
+      <>
+        Ut adipisicing irure sint id deserunt sit quis dolor anim magna
+        cupidatat. Ullamco sint occaecat id in exercitation quis laboris
+        consequat. Ea occaecat est esse consequat irure deserunt sint quis.
+      </>
+    ),
     areaServices: [
       // Manual Testing
       {
@@ -363,9 +399,9 @@ const MainFourServices = () => {
               >
                 <img src={item.icon} alt="icon" />
               </div>
-              <h4 style={{ marginTop: "12px" }}>{item.title}</h4>
+              <h4 style={{ marginTop: "12px" }}>{item.areaTitle}</h4>
             </div>
-            <p>{item.text}</p>
+            <p className="UpToThreeLines">{item.text}</p>
             <Link type="button" className="theme-btn-three" to={item.link}>
               Read More..
             </Link>

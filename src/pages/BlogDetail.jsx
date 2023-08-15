@@ -9,6 +9,7 @@ import Header from "../components/common/header/Header";
 import Seo from "../components/common/seo/Seo";
 import FooterMenuList from "../components/common/footer/FooterMenuList";
 import CopyrightFooter from "../components/common/footer/CopyrightFooter";
+import NotFound from "./NotFound";
 
 // css
 import classes from "../components/blogs/blogDetail.module.css";
@@ -23,7 +24,7 @@ const BlogDetail = () => {
   const blog = blogContent.find((item) => item.id === id);
 
   if (!blog) {
-    return <div>Blog not found</div>;
+    return <NotFound />;
   }
 
   // Sort the blog content array by date in descending order

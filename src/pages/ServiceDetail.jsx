@@ -8,6 +8,7 @@ import CopyrightFooter from "../components/common/footer/CopyrightFooter";
 import FooterMenuList from "../components/common/footer/FooterMenuList";
 import Seo from "../components/common/seo/Seo";
 import FancyBanner from "../components/banners/FancyBanner";
+import NotFound from "./NotFound";
 
 import classes from "../components/services/ServiceDetail.module.css";
 
@@ -17,18 +18,18 @@ import { serviceContent } from "../components/services/Services";
 const ServiceDetail = () => {
   const { id } = useParams(); // Get the id parameter from the URL
 
-  // Find the service with the matching id from all service groups
   let service = null;
 
   for (const group of serviceContent) {
     service = group.areaServices.find((item) => item.id === id);
     if (service) {
-      break; // Exit the loop if the service is found
+      var ServiceGroupTitle = group.areaTitle;
+      break;
     }
   }
 
   if (!service) {
-    return <div>Service not found</div>;
+    return <NotFound />;
   }
 
   return (
@@ -58,7 +59,7 @@ const ServiceDetail = () => {
             <div className="row justify-content-between">
               <div className="col-xxl-7 col-lg-7" data-aos="fade-right">
                 <div className="title-style-one">
-                  <div className="upper-title">Service Type Name</div>
+                  <div className="upper-title">{ServiceGroupTitle}</div>
                   <h4 className="title">{service.title}</h4>
                 </div>
                 <p className={`meta-info-text ${classes.serviceDetailPara}`}>
