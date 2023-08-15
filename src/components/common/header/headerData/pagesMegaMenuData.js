@@ -9,7 +9,7 @@ const pagesMegaMenuData = [
         routeLink: "/services/networkBenchmarkTesting",
       },
       {
-        name: "Filed Performance Testing",
+        name: "Field Performance Testing",
         routeLink: "/services/filedPerformanceTesting",
       },
       {
@@ -56,7 +56,7 @@ const pagesMegaMenuData = [
   // Quality Isurance
   {
     id: "servicesQualityIsuranceId",
-    title: "Quality Isurance",
+    title: "Quality Assurance",
     menuList: [
       { name: "Manual Testing ", routeLink: "/services/ManualTesting" },
       { name: "Automation Testing", routeLink: "/services/AutomationTesting" },
