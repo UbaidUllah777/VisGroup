@@ -31,8 +31,8 @@ const BlogDetail = () => {
     (a, b) => new Date(b.date) - new Date(a.date)
   );
 
-  // Select the latest three blogs
-  const latestThreeBlogs = sortedBlogs.slice(0, 5);
+  // Select the latest Five blogs
+  const latestFiveBlogs = sortedBlogs.slice(0, 5);
   return (
     <div className="main-page-wrapper">
       <Seo title={blog.title} />
@@ -69,7 +69,7 @@ const BlogDetail = () => {
             {/* Latest Blogs On SIde: Start */}
             <div className="col-md-4 col-12">
               <h5 className={classes.LatestBlogsHeading}>Latest Blogs</h5>
-              {latestThreeBlogs.map((item) => (
+              {latestFiveBlogs.map((item) => (
                 <li className={classes.LatestBlogsList} key={item.id}>
                   <Link to={`/blogs/${item.id}`} className="title">
                     {item.title}

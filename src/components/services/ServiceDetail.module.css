@@ -1,0 +1,30 @@
+.serviceDetailPara{
+
+}
+
+.serviceDetailTagPara{
+    text-align: justify;
+    font-size: 14px;
+}
+
+.customHeadingBar{
+    font-family: "Recoleta";
+    font-weight: 600;
+
+}
+.customHeadingBar:before {
+    border-color: #28C23E;
+}
+.customHeadingBar:before {
+    content: '';
+    position: absolute;
+    margin-top: 0.7rem;
+    right: calc( 100% + .5rem);
+    width: 50px;
+    border-top: 5px solid #e16817;
+    transform: translate3d(0, -50%, 0);
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}

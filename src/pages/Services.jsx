@@ -45,7 +45,7 @@ const Services = () => {
             >
               <div className="title-style-one text-center">
                 <h4 className="title">
-                  Explore Our Top Notch Solutions and Services
+                  Explore Our <span>Top Notch Solutions</span> and Services
                 </h4>
               </div>
             </div>

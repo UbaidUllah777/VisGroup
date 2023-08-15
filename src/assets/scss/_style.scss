@@ -13,6 +13,23 @@
 ====================================================================
 
  ***/
+
+.UpToThreeLines{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* Number of lines to show */
+  overflow: hidden;
+}
+
+
+.UpToFourLines{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4; /* Number of lines to show */
+  overflow: hidden;
+}
+
+
 .ctn-preloader {
   align-items: center;
   -webkit-align-items: center;
