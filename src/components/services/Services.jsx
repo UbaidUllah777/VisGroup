@@ -398,7 +398,7 @@ export const AllServices = () => {
                 <h4 style={{ marginTop: "10px" }}>{item.title}</h4>
               </div>
               <p className="UpToFourLines">{item.text}</p>
-              <Link type="button" className="theme-btn-three" to={item.link}>
+              <Link type="button" className="theme-btn-three" to={item.id}>
                 Read More..
               </Link>
             </div>

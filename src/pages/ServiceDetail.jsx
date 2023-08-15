@@ -17,8 +17,15 @@ import { serviceContent } from "../components/services/Services";
 const ServiceDetail = () => {
   const { id } = useParams(); // Get the id parameter from the URL
 
-  // Find the blog with the matching id from your blogContent array
-  const service = serviceContent.find((item) => item.id === id);
+  // Find the service with the matching id from all service groups
+  let service = null;
+
+  for (const group of serviceContent) {
+    service = group.areaServices.find((item) => item.id === id);
+    if (service) {
+      break; // Exit the loop if the service is found
+    }
+  }
 
   if (!service) {
     return <div>Service not found</div>;
