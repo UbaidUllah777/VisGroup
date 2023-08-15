@@ -1,41 +1,41 @@
-.BlogImageWrapper img{
-max-width: 500px;
-height: auto;
+.BlogImageWrapper img {
+  max-width: 640px;
+  height: auto;
 }
 
-.LatestBlogsList{
-    list-style: none;
-    padding-bottom: 0.7rem;
-    font-family: "Recoleta";
-    font-weight: 500;
-    line-height: 22px;
+.LatestBlogsList {
+  list-style: none;
+  padding-bottom: 0.7rem;
+  font-family: "Recoleta";
+  font-weight: 500;
+  line-height: 22px;
 }
-.LatestBlogsList:hover{
- cursor: pointer;
- color:#e16817 ;
-}
-
-.LatestBlogsHeading{
-    font-size: 24px;
-    font-family: "Recoleta";
-    margin-bottom: 1rem;
-    color: #e16817;
+.LatestBlogsList:hover {
+  cursor: pointer;
+  color: #e16817;
 }
 
-.blogDate{
-    font-size: 16px;
-    font-family: "Recoleta";
-    margin-bottom: 1rem;
+.LatestBlogsHeading {
+  font-size: 24px;
+  font-family: "Recoleta";
+  margin-bottom: 1rem;
+  color: #e16817;
 }
 
-.blogDetailParaHeading{
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 1.16em;
-    margin-bottom: 20px;
-    color: rgb(225, 104, 23);
-    display: inline-block;
+.blogDate {
+  font-size: 16px;
+  font-family: "Recoleta";
+  margin-bottom: 1rem;
 }
-.blogDetailParagragh{
-    font-size: 14px;
+
+.blogDetailParaHeading {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 1.16em;
+  margin-bottom: 20px;
+  color: rgb(225, 104, 23);
+  display: inline-block;
+}
+.blogDetailParagragh {
+  font-size: 14px;
 }
