@@ -74,10 +74,13 @@ const ContactUs = () => {
                 style={{
                   backgroundColor: "lightgray",
                   paddingTop: "50px",
-                  paddingLeft: "20px",
+                  paddingBottom: "50px",
                 }}
               >
-                <VisLocations />
+                <center>
+                  {" "}
+                  <VisLocations />
+                </center>
               </div>
             </div>
             {/* End .col */}

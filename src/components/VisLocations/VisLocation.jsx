@@ -69,16 +69,18 @@ const locationsContent = [
 ];
 const VisLocations = () => {
   return (
-    <div className="row gx-0 ">
+    <div className="row  ">
       {locationsContent.map((location) => (
         <div
-          className="col-lg-5 col-3 mt-45"
+          className="col-lg-6 col-md-3 col-12 mt-35 "
           data-aos="fade-up"
           data-aos-delay={location.delayAnimation}
           key={location.id}
-          style={{ margin: "10px" }}
         >
-          <div className="card-style-seven" style={{ padding: "10px" }}>
+          <div
+            className="card-style-seven"
+            style={{ padding: "10px", width: "90%" }}
+          >
             <div className="icon-title-container" style={{ display: "flex" }}>
               <div
                 className="icon d-flex align-items-center justify-content-center"
@@ -113,7 +115,7 @@ const VisLocations = () => {
                 marginTop: "12px",
                 fontSize: "12px",
                 marginBottom: "20px",
-                fontFamily: "Recoleta",
+                color: "gray",
                 fontWeight: "normal",
                 lineHeight: "1.16em",
               }}
