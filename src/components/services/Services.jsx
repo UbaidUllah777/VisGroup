@@ -41,6 +41,23 @@ export const serviceContent = [
             occaecat laboris.
           </>
         ),
+        serviceTags: [
+          {
+            tagTitle: "Tag one",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Two",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Three",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+        ],
       },
 
       // Field Performance Testing
@@ -64,6 +81,23 @@ export const serviceContent = [
             occaecat laboris. high-rated mobile communications.
           </>
         ),
+        serviceTags: [
+          {
+            tagTitle: "Tag one",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Two",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Three",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+        ],
       },
 
       // Global Certification Forum
@@ -87,6 +121,23 @@ export const serviceContent = [
             occaecat laboris. high-rated mobile communications.
           </>
         ),
+        serviceTags: [
+          {
+            tagTitle: "Tag one",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Two",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Three",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+        ],
       },
 
       // SoS Calls Testing
@@ -110,6 +161,23 @@ export const serviceContent = [
             occaecat laboris. high-rated mobile communications.
           </>
         ),
+        serviceTags: [
+          {
+            tagTitle: "Tag one",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Two",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Three",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+        ],
       },
     ],
   },
@@ -150,6 +218,23 @@ export const serviceContent = [
             occaecat laboris.
           </>
         ),
+        serviceTags: [
+          {
+            tagTitle: "Tag one",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Two",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Three",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+        ],
       },
 
       //Tuner And Media Testing
@@ -173,6 +258,23 @@ export const serviceContent = [
             occaecat laboris.by famous automotive brands
           </>
         ),
+        serviceTags: [
+          {
+            tagTitle: "Tag one",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Two",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Three",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+        ],
       },
 
       //HMI Testing
@@ -196,12 +298,28 @@ export const serviceContent = [
             occaecat laboris.by famous automotive brands
           </>
         ),
+        serviceTags: [
+          {
+            tagTitle: "Tag one",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Two",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Three",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+        ],
       },
     ],
   },
 
   // -----------Software Development------------------
-
   {
     id: "softwareDevelopment",
     areaTitle: "Software Development",
@@ -238,15 +356,32 @@ export const serviceContent = [
             requirements.
           </>
         ),
+        serviceTags: [
+          {
+            tagTitle: "Tag one",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Two",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Three",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+        ],
       },
 
       // Mobile Apps Development
       {
-        id: " mobileAppsDevelopment",
+        id: "mobileAppsDevelopment",
         icon: icon3,
         delayAnimation: 200,
         link: "/services/softwaretesting",
-        title: " Mobile Apps Development",
+        title: "Mobile Apps Development",
         text: (
           <>
             Ut adipisicing irure sint id deserunt sit quis dolor anim magna
@@ -262,12 +397,28 @@ export const serviceContent = [
             requirements.
           </>
         ),
+        serviceTags: [
+          {
+            tagTitle: "Tag one",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Two",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Three",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+        ],
       },
     ],
   },
 
   // -----------Quality Assurance------------------
-
   {
     id: "Quality Assurance",
     areaTitle: "Quality Assurance",
@@ -304,6 +455,23 @@ export const serviceContent = [
             requirements.
           </>
         ),
+        serviceTags: [
+          {
+            tagTitle: "Tag one",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Two",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Three",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+        ],
       },
 
       // Automation Testing
@@ -328,6 +496,23 @@ export const serviceContent = [
             requirements.
           </>
         ),
+        serviceTags: [
+          {
+            tagTitle: "Tag one",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Two",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Three",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+        ],
       },
 
       // Performance Testing
@@ -352,6 +537,23 @@ export const serviceContent = [
             requirements.
           </>
         ),
+        serviceTags: [
+          {
+            tagTitle: "Tag one",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Two",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Three",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+        ],
       },
 
       // API Testing
@@ -376,6 +578,23 @@ export const serviceContent = [
             requirements.
           </>
         ),
+        serviceTags: [
+          {
+            tagTitle: "Tag one",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Two",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+          {
+            tagTitle: "Tag Three",
+            tagText:
+              "Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur.Quis conseqt commdo enim id exepteur.Cupidatat laboum cilum incididt ut paratur constetur",
+          },
+        ],
       },
     ],
   },

@@ -356,7 +356,7 @@ export const blogContent = [
     tag: "SoS Calls Testing",
     title: "Understanding SOS Emergency Calls Testing",
     meta: "New",
-    date: "20 Aug 2023",
+    date: "15 Aug 2023",
     img: "",
     paragraphs: [
       {
@@ -427,45 +427,16 @@ export const blogContent = [
       },
     ],
   },
-
-  {
-    id: "",
-    tag: "Infotainment Systems",
-    title: "",
-    meta: "New",
-    date: "10 Jul 2023",
-    img: "",
-    paragraphs: [
-      {
-        paragraphHeading: `Introduction`,
-        paragraph: ``,
-      },
-      {
-        paragraphHeading: ``,
-        paragraph: ``,
-      },
-      {
-        paragraphHeading: `Mobile Device Integration`,
-        paragraph: ``,
-      },
-
-      {
-        paragraphHeading: `Cybersecurity Testing`,
-        paragraph: ``,
-      },
-
-      {
-        paragraphHeading: `Conclusion`,
-        paragraph: ``,
-      },
-    ],
-  },
 ];
 
 const AllBlogs = ({ className = "" }) => {
+  // Sort the blog content array by date in descending order
+  const sortedBlogs = [...blogContent].sort(
+    (a, b) => new Date(b.date) - new Date(a.date)
+  );
   return (
     <>
-      {blogContent.map((item) => (
+      {sortedBlogs.map((item) => (
         <div className="col-lg-4 col-md-6 mb-20 d-flex" key={item.id}>
           <article className={`blog-meta-one feature-post ${className}`}>
             <p className="tag">{item.tag}</p>

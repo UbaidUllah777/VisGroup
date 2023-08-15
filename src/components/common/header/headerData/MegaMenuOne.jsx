@@ -2,7 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import CustomLink from "../../CustomLink";
 import logo from "../../../../assets/images/logo/visMobileViewLogo.png";
-import pagesMegaMenuData from "./pagesMegaMenuData";
+
+// Data
+import { serviceContent } from "../../../services/Services";
 
 const MegaMenuOne = () => {
   const [toggleType, setToggleType] = useState(() =>
@@ -62,18 +64,20 @@ const MegaMenuOne = () => {
         <ul className="dropdown-menu">
           <li>
             <div className="row">
-              {pagesMegaMenuData.map((item) => (
-                <div className="col-lg-3" key={item.id}>
+              {serviceContent.map((serviceGroup) => (
+                <div className="col-lg-3" key={serviceGroup.id}>
                   <div className="menu-column">
-                    <h6 className="mega-menu-title">{item.title}</h6>
+                    <h6 className="mega-menu-title">
+                      {serviceGroup.areaTitle}
+                    </h6>
                     <ul className="style-none mega-dropdown-list">
-                      {item.menuList.map((list, i) => (
+                      {serviceGroup.areaServices.map((list, i) => (
                         <li key={i}>
                           <CustomLink
-                            to={list.routeLink}
+                            to={`/services/${list.id}`}
                             className="dropdown-item"
                           >
-                            <span>{list.name}</span>
+                            <span>{list.title}</span>
                           </CustomLink>
                         </li>
                       ))}

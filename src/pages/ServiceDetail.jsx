@@ -76,45 +76,20 @@ const ServiceDetail = () => {
                   <div className="row">
                     <div className="col-xxl-12 m-auto">
                       <div className="row">
-                        <div>
-                          <h4 className={`  mb-10 ${classes.customHeadingBar}`}>
-                            Android Apps
-                          </h4>
-                          <p
-                            className={`pb-3 mb-4 ${classes.serviceDetailTagPara}`}
-                          >
-                            We develop robust, scalable, and dynamic Android
-                            Apps using different tools and frameworks, which not
-                            only fulfill your business requirement; but strictly
-                            adhere to Google guidelines and regulations.
-                          </p>
-                        </div>
-                        <div>
-                          <h4 className={`  mb-10 ${classes.customHeadingBar}`}>
-                            Android Apps
-                          </h4>
-                          <p
-                            className={`pb-3 mb-4 ${classes.serviceDetailTagPara}`}
-                          >
-                            We develop robust, scalable, and dynamic Android
-                            Apps using different tools and frameworks, which not
-                            only fulfill your business requirement; but strictly
-                            adhere to Google guidelines and regulations.
-                          </p>
-                        </div>
-                        <div>
-                          <h4 className={`  mb-10 ${classes.customHeadingBar}`}>
-                            Android Apps
-                          </h4>
-                          <p
-                            className={`pb-3 mb-4 ${classes.serviceDetailTagPara}`}
-                          >
-                            We develop robust, scalable, and dynamic Android
-                            Apps using different tools and frameworks, which not
-                            only fulfill your business requirement; but strictly
-                            adhere to Google guidelines and regulations.
-                          </p>
-                        </div>
+                        {service.serviceTags.map((serviceTag, index) => (
+                          <div>
+                            <h4
+                              className={`  mb-10 ${classes.customHeadingBar}`}
+                            >
+                              {serviceTag.tagTitle}
+                            </h4>
+                            <p
+                              className={`pb-3 mb-4 ${classes.serviceDetailTagPara}`}
+                            >
+                              {serviceTag.tagText}
+                            </p>
+                          </div>
+                        ))}
                       </div>
                     </div>
                   </div>
