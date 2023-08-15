@@ -39,15 +39,21 @@ const AboutUs = () => {
       <div className="vcamp-text-block-one mt-50 lg-mt-120">
         <div className="container">
           <div className="row align-items-center" style={{ marginTop: "20px" }}>
-            <div className="col-xxl-6 col-xl-7 col-lg-5">
+            <div className="col-xxl-5 col-xl-6 col-lg-5">
               <div className="text-wrapper" style={{ paddingTop: "10px" }}>
                 <div className="title-style-one">
                   <div className="upper-title">About Us</div>
+
+                  <div className="col-xl-5 col-md-6">
+                    <h3 className="page-title font-recoleta text-color">
+                      About <span>Vis Group</span>
+                    </h3>
+                  </div>
                   <p
                     style={{
                       fontFamily: "Recoleta",
                       fontSize: "16px",
-                      textAlign: "justify",
+                      // textAlign: "justify",
                     }}
                   >
                     We’ve been helping customer globally.Elevate your digital
