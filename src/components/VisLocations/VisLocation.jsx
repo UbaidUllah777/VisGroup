@@ -61,7 +61,7 @@ const locationsContent = [
   {
     id: "PakistanId",
     country: "Pakistan",
-    address: "Islamabad, Pakistan",
+    address: "BX Technologies, Islamabad, Pakistan",
     flag: Pakistan,
     phone: "+92-3159116035",
     mail: "info@bxtechnologies.com",
